@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&family=Rubik&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+h2{
+     font-family: 'Gothic A1', sans-serif;
+     font-weight: 300;
+}
+h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    color: #595959;  
+}
+h6{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    color: #595959;  
+}
+p{
+    font-family: 'Gothic A1', sans-serif;
+   font-weight: 300;
+   word-break: break-word;
+}
+
+.personal-info-box{
+    padding-top: 50px;
+    
+ 
+}
+.adjust-height-width-color{
+   min-height: 100vh;
+    background-color: aliceblue;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.pb-custom{
+    padding-bottom: 30px;
+}
+
+.h2-white{
+    letter-spacing: 8px;
+    color: white;
+ 
+}
+.green-section-cv{
+    background-color: #00b050;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.green-section-cv h2{
+
+padding: 15px 10px;
+border-bottom: 1px solid white;
+
+}
+.green-section-cv p{
+
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    
+}
+.contact-cv p span{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-cv p{
+    
+    margin-top: 17px;
+}
+.col-right{
+    padding:  50px ;
+}
+
+h1{
+    color: #595959;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    font-size: 77px; 
+    word-wrap: break-word;
+}
+
+.h2-green{
+  color:#00b050;
+  
+}
+.name-profession-cv
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #595959;
+    margin-bottom: 30px;
+}
+.col-right p{
+    color: #595959 !important;
+    word-break: break-word;
+}
+.objective-cv{
+    margin-bottom: 20px;
+}
+.experience-cv{
+    margin-bottom: 20px;
+}
+
+.skills-cv .progress{
+    margin-top: 10px;
+}
+.skills-cv .skill{
+    margin-top: 10px;
+}
+.progress-bar{
+    background-color: #00b050 !important;
+}
+
+@media print {
+    body { 
+        width: 100%;
+        height: 1440px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .green-section-cv{
+        background-color: #00b050;
+    }
+    .col-lg-4{
+        width: 40%;
+    }
+    .col-lg-8{
+        width: 60%;
+    }
+    .col-right{
+        padding-top: 20px !important;
+    }
+    .about-me-cv{
+        padding-top: 20px !important;
+    }
+    .contact-location-cv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px !important;
+    }
+    .contact-location-cv p span{
+        font-size: 30px !important;
+    }
+}
